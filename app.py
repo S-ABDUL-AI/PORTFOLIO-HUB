@@ -374,7 +374,7 @@ FEATURED = [
         "title": "Medicaid & Healthcare Access Risk Monitor",
         "desc": "State-level coverage risk scoring for all 50 US states. Identifies where Medicaid access pressure is highest across insurance gaps, cost burden, income, and rural reach.",
         "users": "For: State Medicaid program officers · Federal policy teams",
-        "url": "https://chpghrwawmvddoquvmniwm.streamlit.app/",
+        "url": "https://medicaid-healthcare-access-risk-monitor-state-level-coverage-p.streamlit.app/",
         "border": RED,
     },
     {
