@@ -435,7 +435,7 @@ OTHER_TOOLS = [
     {
         "name": "Global Vaccination Coverage Explorer",
         "desc": "WHO vaccination data across 190+ countries — automated ETL pipeline for public health program managers and researchers.",
-        "url": "https://worldvaccinationcoverage-etl-ftvwbikifyyx78xyy2j3zv.streamlit.app/",
+        "url": "https://global-vaccination-coverage-explorer-6xop7p8cklrs2j3zp2ny7b.streamlit.app/",
     },
     {
         "name": "Humanitarian Procurement Optimiser",
