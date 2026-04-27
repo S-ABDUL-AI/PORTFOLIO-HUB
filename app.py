@@ -396,7 +396,7 @@ FEATURED = [
         "title": "Safety Net Risk Monitor",
         "desc": "Proactive SNAP and food security vulnerability targeting. Identifies communities at highest risk before they reach crisis point — with structured policy briefs and recommended actions.",
         "users": "For: SNAP outreach coordinators · State food security teams",
-        "url": "https://povertyearlywarningsystem-7rrmkktbi7bwha2nna8gk7.streamlit.app/",
+        "url": "https://safety-net-risk-monitor-gncnzr2ik57wzqrwp25kl3.streamlit.app/",
         "border": AMBER,
     },
     {
@@ -405,7 +405,7 @@ FEATURED = [
         "title": "Public Budget Allocation Tool",
         "desc": "Need-based government budget distribution across regions. Generates a ministerial-grade decision brief with risk flags, implication analysis, and immediate action steps.",
         "users": "For: Government program directors · Budget administrators",
-        "url": "https://smart-resource-allocation-dashboard-eudzw5r2f9pbu4qyw3psez.streamlit.app/",
+        "url": "https://public-budget-allocation-tool-6jnjrfp52xwvvcm8twan9z.streamlit.app/",
         "border": NAVY,
     },
     {
@@ -414,7 +414,7 @@ FEATURED = [
         "title": "GovFund Allocation Engine",
         "desc": "Cost-effectiveness decision tool for global health funders. Models cost-per-life-saved across malaria, nutrition, and social protection interventions with sensitivity analysis.",
         "users": "For: Global health funders · USAID · Gates Foundation program officers",
-        "url": "https://impact-allocation-engine-ahxxrbgwmvyapwmifahk2b.streamlit.app/",
+        "url": "https://govfund--allocation-engine-5m2xtatvrc3haddomjjzam.streamlit.app/",
         "border": GREEN,
     },
 ]
