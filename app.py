@@ -12,6 +12,19 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+st.markdown("""
+    <head>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Sherriff Abdul-Hamid — Government Digital Services Portfolio"/>
+    <meta property="og:description" content="Decision-support tools for SNAP program officers, Medicaid administrators, and global health funders. EB1-A Extraordinary Ability · Obama Foundation Leader · USAID · UNDP · UKAID."/>
+    <meta property="og:url" content="https://sherriff-abdul-hamid-portfolio.streamlit.app"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/S-ABDUL-AI/portfolio-hub/main/cover.png"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Sherriff Abdul-Hamid — Government Digital Services Portfolio"/>
+    <meta name="twitter:description" content="Decision-support tools for SNAP program officers, Medicaid administrators, and global health funders."/>
+    </head>
+""", unsafe_allow_html=True)
+
 # ── PALETTE ───────────────────────────────────────────────────
 NAVY     = "#0A1F44"
 NAVY_MID = "#152B5C"
