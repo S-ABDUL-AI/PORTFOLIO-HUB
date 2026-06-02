@@ -349,13 +349,16 @@ st.markdown(f"""
 <div class="hero">
     <div class="hero-eye">Portfolio · Government Digital Services & Decision Science</div>
     <div class="hero-name">Sherriff Abdul-Hamid</div>
-    <div class="hero-title">Product Leader · Global Health Economist · Decision Scientist</div>
+    <div class="hero-title">Development Economist · Public-Sector AI Researcher · Applied Data Scientist</div>
     <div class="hero-bio">
-    I build decision-support tools that help governments, funders, and program officers
-    allocate scarce resources more fairly — particularly when evidence is incomplete
-    and the people affected have the least power to influence the decision.
-    Over 10 years directing $200M+ in resource allocation decisions for USAID, UNDP,
-    and UKAID across West Africa and the United States.
+   I study how AI-assisted targeting systems create representation failures that
+    exclude vulnerable populations from social protection coverage — drawing on
+    14 years applying econometrics, causal inference, and cost-effectiveness
+    analysis to public-sector decision-making across Sub-Saharan Africa and the
+    United States. My current research examines distribution shift and systematic
+    missingness in public-sector AI systems, grounded in direct field experience
+    enrolling 1,250 women into Ghana's National Health Insurance Authority who
+    were invisible to both official digital enrollment pathways.
     </div>
     <div class="hero-creds">
         <span class="cred-pill">EB1-A Extraordinary Ability</span>
@@ -373,9 +376,11 @@ st.markdown(f"""
     <div class="section-eye">Featured Work</div>
     <div class="section-title">Four Tools. One Mission.</div>
     <div class="section-sub">
-    Production-ready decision-support tools for SNAP program officers,
-    Medicaid administrators, and global health funders.
-    Each generates a downloadable McKinsey-style PDF policy report.
+    These tools were built from the same question that drives my research:
+    what happens when the people most in need are the least visible to the
+    systems designed to serve them? Production-ready decision-support tools
+    for SNAP programme officers, Medicaid administrators, and global health
+    funders — each generating a downloadable policy report.
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -478,12 +483,16 @@ st.markdown(f"""
     Every tool in this portfolio was built to answer one question:
     <em>what do you do when evidence is incomplete, resources are limited,
     and a decision still has to be made?</em><br><br>
-    I have spent a decade building frameworks for exactly that situation —
-    across international development programs in West Africa, safety net
-    benefits delivery in the United States, and global health funding decisions
-    reaching millions of underserved people. These tools are the public-facing
-    expression of that work.
-    </div>
+    I have spent 14 years building frameworks for exactly that situation —
+    across social protection and public health programmes in West Africa,
+    safety net benefits delivery in the United States, and global health
+    funding decisions affecting millions of underserved people. My current
+    research examines how AI-assisted decision systems create representation
+    failures that exclude the most vulnerable populations from public services —
+    grounded in direct field experience enrolling 1,250 women into Ghana's
+    National Health Insurance Authority who were invisible to both official
+    digital enrollment pathways. These tools are the public-facing expression
+    of that work.
     <div class="award-row">
         <span class="award-pill">EB1-A Extraordinary Ability — USCIS, 2024</span>
         <span class="award-pill">Obama Foundation Leaders Award — Top 1.3%, 2023</span>
