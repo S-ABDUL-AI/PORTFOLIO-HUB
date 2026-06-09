@@ -1,18 +1,8 @@
 # Civic Tech Portfolio
 
-**Sherriff Abdul-Hamid — Government Digital Services & Decision Science**
-
 [![Open Portfolio](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://civic-tech-portfolio.streamlit.app)
 
-A Streamlit portfolio hub showcasing production-ready decision-support tools for SNAP program officers, Medicaid administrators, global health funders, and public-sector analytics teams. Each tool opens directly in the browser — no Streamlit account required.
-
----
-
-## Open the Portfolio Hub
-
-| | Link |
-|---|------|
-| **Live portfolio** | [civic-tech-portfolio.streamlit.app](https://civic-tech-portfolio.streamlit.app) |
+Production-ready decision-support tools for SNAP program officers, Medicaid administrators, global health funders, and public-sector analytics teams. Each app opens directly in the browser — no Streamlit account required.
 
 ---
 
