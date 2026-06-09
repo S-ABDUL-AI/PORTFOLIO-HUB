@@ -17,8 +17,8 @@ st.markdown("""
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="Sherriff Abdul-Hamid — Government Digital Services Portfolio"/>
     <meta property="og:description" content="Decision-support tools for SNAP program officers, Medicaid administrators, and global health funders. EB1-A Extraordinary Ability · Obama Foundation Leader · USAID · UNDP · UKAID."/>
-    <meta property="og:url" content="https://sherriff-abdul-hamid-portfolio.streamlit.app"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/S-ABDUL-AI/portfolio-hub/main/cover.png"/>
+    <meta property="og:url" content="https://civic-tech-portfolio.streamlit.app"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/S-ABDUL-AI/CIVIC-TECH-PORTFOLIO/main/cover.png"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:title" content="Sherriff Abdul-Hamid — Government Digital Services Portfolio"/>
     <meta name="twitter:description" content="Decision-support tools for SNAP program officers, Medicaid administrators, and global health funders."/>
@@ -392,7 +392,7 @@ FEATURED = [
         "title": "Medicaid & Healthcare Access Risk Monitor",
         "desc": "State-level coverage risk scoring for all 50 US states. Identifies where Medicaid access pressure is highest across insurance gaps, cost burden, income, and rural reach.",
         "users": "For: State Medicaid program officers · Federal policy teams",
-        "url": "https://medicaid-healthcare-access-risk-monitor-state-level-coverage-p.streamlit.app/",
+        "url": "https://medicaid-healthcare-access-risk-monitor.streamlit.app/",
         "border": RED,
     },
     {
@@ -401,7 +401,7 @@ FEATURED = [
         "title": "Safety Net Risk Monitor",
         "desc": "Proactive SNAP and food security vulnerability targeting. Identifies communities at highest risk before they reach crisis point — with structured policy briefs and recommended actions.",
         "users": "For: SNAP outreach coordinators · State food security teams",
-        "url": "https://safety-net-risk-monitor-gncnzr2ik57wzqrwp25kl3.streamlit.app/",
+        "url": "https://safety-net-risk-monitor.streamlit.app/",
         "border": AMBER,
     },
     {
@@ -410,7 +410,7 @@ FEATURED = [
         "title": "Public Budget Allocation Tool",
         "desc": "Need-based government budget distribution across regions. Generates a ministerial-grade decision brief with risk flags, implication analysis, and immediate action steps.",
         "users": "For: Government program directors · Budget administrators",
-        "url": "https://public-budget-allocation-tool-6jnjrfp52xwvvcm8twan9z.streamlit.app/",
+        "url": "https://smart-resource-allocation-dashboard.streamlit.app/",
         "border": NAVY,
     },
     {
@@ -419,7 +419,7 @@ FEATURED = [
         "title": "GovFund Allocation Engine",
         "desc": "Cost-effectiveness decision tool for global health funders. Models cost-per-life-saved across malaria, nutrition, and social protection interventions with sensitivity analysis.",
         "users": "For: Global health funders · USAID · Gates Foundation program officers",
-        "url": "https://govfund--allocation-engine-5m2xtatvrc3haddomjjzam.streamlit.app/",
+        "url": "https://govfund-allocation-engine.streamlit.app/",
         "border": GREEN,
     },
 ]
@@ -453,12 +453,12 @@ OTHER_TOOLS = [
     {
         "name": "Global Vaccination Coverage Explorer",
         "desc": "WHO vaccination data across 190+ countries — automated ETL pipeline for public health program managers and researchers.",
-        "url": "https://global-vaccination-coverage-explorer-6xop7p8cklrs2j3zp2ny7b.streamlit.app/",
+        "url": "https://global-vaccination-coverage-explorer.streamlit.app/",
     },
     {
         "name": "Humanitarian Procurement Optimiser",
         "desc": "Linear programming tool for logistics cost minimisation across field program supply chains.",
-        "url": "https://appuctionplanningoptimizationlinearprogramming-6wd4sg3wmwesrxp.streamlit.app/",
+        "url": "https://appuctionplanningoptimizationlinearprogramming.streamlit.app/",
     },
 ]
 
@@ -512,6 +512,10 @@ st.markdown(f"""
     <div class="connect-links">
         <a href="https://www.linkedin.com/in/abdul-hamid-sherriff-08583354/"
            target="_blank" class="connect-link">LinkedIn</a>
+        <a href="https://github.com/S-ABDUL-AI/CIVIC-TECH-PORTFOLIO"
+           target="_blank" class="connect-link">GitHub</a>
+        <a href="https://poverty360.org"
+           target="_blank" class="connect-link">poverty360.org</a>
         <a href="mailto:sherriffhamid001@gmail.com"
            class="connect-link">Email</a>
     </div>
