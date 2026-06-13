@@ -235,6 +235,21 @@ st.markdown(f"""
         text-decoration:none!important;
     }}
     .feat-link:hover{{background:{GOLD};color:{INK}!important;}}
+    .btn-secondary{{
+        display:inline-block;
+        background:transparent;
+        color:{NAVY}!important;
+        font-family:'Lato',sans-serif;
+        font-size:11px;
+        font-weight:700;
+        letter-spacing:1px;
+        text-transform:uppercase;
+        padding:7px 14px;
+        border-radius:2px;
+        text-decoration:none!important;
+        border:2px solid {NAVY};
+        margin-left:8px;
+    }}
 
     /* ── OTHER TOOLS ── */
     .other-section{{
@@ -349,7 +364,7 @@ st.markdown(f"""
 <div class="hero">
     <div class="hero-eye">Portfolio · Government Digital Services & Decision Science</div>
     <div class="hero-name">Sherriff Abdul-Hamid</div>
-    <div class="hero-title">Development Economist · Public-Sector AI Researcher · Applied Data Scientist</div>
+    <div class="hero-title">Data Scientist · Development Economist · Public-Sector AI Researcher</div>
     <div class="hero-bio">
    I study how AI-assisted targeting systems create representation failures that
     exclude vulnerable populations from social protection coverage — drawing on
@@ -374,7 +389,7 @@ st.markdown(f"""
 st.markdown(f"""
 <div class="section-wrap">
     <div class="section-eye">Featured Work</div>
-    <div class="section-title">Four Tools. One Mission.</div>
+    <div class="section-title">Applied Work. One Mission.</div>
     <div class="section-sub">
     These tools were built from the same question that drives my research:
     what happens when the people most in need are the least visible to the
@@ -393,6 +408,7 @@ FEATURED = [
         "desc": "State-level coverage risk scoring for all 50 US states. Identifies where Medicaid access pressure is highest across insurance gaps, cost burden, income, and rural reach.",
         "users": "For: State Medicaid program officers · Federal policy teams",
         "url": "https://medicaid-healthcare-access-risk-monitor.streamlit.app/",
+        "github": "https://github.com/S-ABDUL-AI/MEDICAID-HEALTHCARE-ACCESS-RISK-MONITOR",
         "border": RED,
     },
     {
@@ -402,6 +418,7 @@ FEATURED = [
         "desc": "Proactive SNAP and food security vulnerability targeting. Identifies communities at highest risk before they reach crisis point — with structured policy briefs and recommended actions.",
         "users": "For: SNAP outreach coordinators · State food security teams",
         "url": "https://safety-net-risk-monitor.streamlit.app/",
+        "github": "https://github.com/S-ABDUL-AI/SAFETY-NET-RISK-MONITOR",
         "border": AMBER,
     },
     {
@@ -411,6 +428,7 @@ FEATURED = [
         "desc": "Need-based government budget distribution across regions. Generates a ministerial-grade decision brief with risk flags, implication analysis, and immediate action steps.",
         "users": "For: Government program directors · Budget administrators",
         "url": "https://smart-resource-allocation-dashboard.streamlit.app/",
+        "github": "https://github.com/S-ABDUL-AI/PUBLIC-BUDGET-ALLOCATION-TOOL",
         "border": NAVY,
     },
     {
@@ -420,6 +438,7 @@ FEATURED = [
         "desc": "Cost-effectiveness decision tool for global health funders. Models cost-per-life-saved across malaria, nutrition, and social protection interventions with sensitivity analysis.",
         "users": "For: Global health funders · USAID · Gates Foundation program officers",
         "url": "https://govfund-allocation-engine.streamlit.app/",
+        "github": "https://github.com/S-ABDUL-AI/GOVFUND-ALLOCATION-ENGINE",
         "border": GREEN,
     },
 ]
@@ -435,6 +454,7 @@ for col, app in zip(cols, FEATURED):
             <div class="feat-desc">{app['desc']}</div>
             <div class="feat-users">{app['users']}</div>
             <a href="{app['url']}" target="_blank" class="feat-link">Open Tool →</a>
+            <a class="btn-secondary" href="{app['github']}" target="_blank">⌥ GitHub</a>
         </div>
         """, unsafe_allow_html=True)
 
@@ -454,11 +474,19 @@ OTHER_TOOLS = [
         "name": "Global Vaccination Coverage Explorer",
         "desc": "WHO vaccination data across 190+ countries — automated ETL pipeline for public health program managers and researchers.",
         "url": "https://global-vaccination-coverage-explorer.streamlit.app/",
+        "github": "https://github.com/S-ABDUL-AI/GLOBAL-VACCINATION-COVERAGE-EXPLORER",
     },
     {
         "name": "Humanitarian Procurement Optimiser",
         "desc": "Linear programming tool for logistics cost minimisation across field program supply chains.",
         "url": "https://appuctionplanningoptimizationlinearprogramming.streamlit.app/",
+        "github": "https://github.com/S-ABDUL-AI/humanitarian-procurement-optimiser",
+    },
+    {
+        "name": "Housing Stability Risk Monitor",
+        "desc": "Regional housing stress signals with HUD and Census-backed panels, model-led prioritisation, and budget simulation for prevention teams.",
+        "url": "https://housing-stability-risk-monitor.streamlit.app/",
+        "github": "https://github.com/S-ABDUL-AI/housing-stability-risk-monitor",
     },
 ]
 
@@ -470,6 +498,7 @@ for tool in OTHER_TOOLS:
             <div class="tool-desc">{tool['desc']}</div>
         </div>
         <a href="{tool['url']}" target="_blank" class="tool-link">Open →</a>
+        <a class="btn-secondary" href="{tool['github']}" target="_blank">⌥ GitHub</a>
     </div>
     """, unsafe_allow_html=True)
 
